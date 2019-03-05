@@ -1,0 +1,90 @@
+﻿TABLES
+
+<table>
+   <tr>    
+     <th>Team</th>
+     <th>Points</th>
+   </tr>
+   <tr>
+    <td>M Blue</td>
+    <td>52</td>
+   </tr>
+   <tr>
+    <td>Tots</td>
+    <td>50</td>
+   </tr>
+   <tr>
+    <td>Poolers</td>
+    <td>48</td>
+   </tr>
+   <tr>
+    <td>Shooters</td>
+    <td>47</td>
+   </tr>
+  </table> 
+
+CSS
+table,td,th{
+  padding: 5px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+table{
+  width: 400px;
+}
+
+th{
+  background-color: blue;
+  color: white;
+}
+
+
+<table>
+   <tr>
+    <th>Name</th>
+    <th>Age</th>
+   </tr>
+</table>
+
+
+<tr>
+   <td class="name">Kaka Sungura</td>
+   <td class="age">16 years</td>
+  </tr>
+
+<tr>
+   <td class="name1">MayGregor MacWeather</td>
+   <td class="age1">34 years</td>
+  </tr>
+
+
+table{
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+ tr{
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+ td{
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+SELECTIONS
+
+.first p:first-child{color:red;
+               
+                                font-size:24px;
+}
+
+
+#diff>p{text-decoration:underline;
+}
+
+h1 p{ font-family:'comic sans';
+}
