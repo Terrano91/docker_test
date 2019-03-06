@@ -20,10 +20,10 @@ sh "docker login -u 'omwale' -p 'Justlaugh@2019' "
 
 }
 stage('Docker tag') {
-sh "docker tag docker_test:latest omwale/docker_test:latest"
+sh "docker tag docker_test:latest omwale/docker_test1:latest"
 }
 stage('push the image') {
-sh "docker push omwale/docker_test:latest"
+sh "docker push omwale/docker_test1:latest"
 }
 stage('Apply changes to the environment') {
 sh "ls -l"
